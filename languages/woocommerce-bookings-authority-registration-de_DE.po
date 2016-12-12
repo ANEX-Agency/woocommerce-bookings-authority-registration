@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PlaceHolder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: Tue Jul 12 2016 11:17:55 GMT+0200 (Mitteleuropäische "
+"Sommerzeit)\n"
+"Last-Translator: Joe Hana <j.hana@anex.at>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: de_DE"
+
+#. Name of the plugin
+msgid "WooCommerce Bookings - Authority Registration"
+msgstr "WooCommerce Bookings - Magistratsanmeldung"
+
+#. URI of the plugin
+msgid "http://woothemes.com/products/woocommerce-bookings-authority-registration"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Adds additional notification which can be used for automatic authority "
+"registrations (and cancellations of registrations)"
+msgstr ""
+
+#. Author of the plugin
+msgid "WooThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://anex.at"
+msgstr ""
+
+#: ../woocommerce-bookings-authority-registration.php:216
+msgid "Enter the number of the decision for this product here"
+msgstr "Bescheidnummer hier eingeben"
+
+#: ../woocommerce-bookings-authority-registration.php:285 ../templates/single-
+#: product/authority-registration.php:16
+msgid "Event Type"
+msgstr "Veranstaltungstyp"
+
+#: ../woocommerce-bookings-authority-registration.php:288 ../woocommerce-bookings-
+#: authority-registration.php:304
+msgid "Event Location"
+msgstr "Veranstaltungsort"
+
+#: ../woocommerce-bookings-authority-registration.php:330
+msgid "N/A"
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:17 ..
+#: /includes/class-wc-booking-authority-registration-settings.php:35
+msgid "Bookings"
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:43 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:56
+msgid ""
+"By default all bookings are getting reported to the public authority. Set "
+"this option to \"public\" to notify the public authority only for bookings "
+"marked as public. With that option a new control will get added to the \"add "
+"to cart\" area of the product single page, where the customer can choose if "
+"that respective product gets used for public."
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:47 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:60
+msgid "All"
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:57 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:68
+msgid ""
+"Activate this to have the customer directly enter the planned location for "
+"using your product (within a public event). This will add a simple textinput "
+"and the entered value will get submitted within the booking registration "
+"notification. This is helpful if public authority also need to know where a "
+"specific item gets used in public."
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:60 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:71
+msgid "Force Customers to enter the planned location"
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:67 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:76
+msgid "Public: Note"
+msgstr ""
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:68 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:77
+msgid "This will get added to the \"add to cart\" area on single product pages."
+msgstr ""
+
+#: ../includes/__class-wc-booking-authority-registration-integration.php:25
+msgid "Booking Authority Registration"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:23 ..
+#: /includes/emails/class-wc-email-booking-cancellation.php:26
+msgid "Booking Cancellation"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:24
+msgid ""
+"Booking Cancellation emails are sent to the authority when a pending, "
+"confirmed or already paid booking gets cancelled."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:27
+msgid "Cancel Registration for \"{product_title}\""
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:28
+msgid "We like to inform you about the cancelation of {product_title}"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:87
+msgid "Booking Registration Cancellation has been successfully sent"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:92
+msgid "Booking Registration Cancellation couldn't be sent"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:163 ..
+#: /includes/emails/class-wc-email-booking-registration.php:180
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:165 ..
+#: /includes/emails/class-wc-email-booking-registration.php:182
+msgid "Enable this email notification"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:169 ..
+#: /includes/emails/class-wc-email-booking-registration.php:186
+msgid "Recipient(s)"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:171 ..
+#: /includes/emails/class-wc-email-booking-registration.php:188
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to "
+"<code>%s</code>."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:177 ..
+#: /includes/emails/class-wc-email-booking-registration.php:194
+msgid "Subject"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:179 ..
+#: /includes/emails/class-wc-email-booking-registration.php:196
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:185 ..
+#: /includes/emails/class-wc-email-booking-registration.php:202
+msgid "Email Heading"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:187 ..
+#: /includes/emails/class-wc-email-booking-registration.php:204
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:193 ..
+#: /includes/emails/class-wc-email-booking-registration.php:210
+msgid "Email Message"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:195 ..
+#: /includes/emails/class-wc-email-booking-registration.php:212
+#, php-format
+msgid ""
+"This controls the main body contained within the email notification. Leave "
+"blank to use the default body: <code>%s</code>."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:201 ..
+#: /includes/emails/class-wc-email-booking-registration.php:218
+msgid "Email type"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-cancellation.php:203 ..
+#: /includes/emails/class-wc-email-booking-registration.php:220
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-registration.php:23 ..
+#: /includes/emails/class-wc-email-booking-registration.php:26
+msgid "Booking Registration"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-registration.php:24
+msgid ""
+"Booking Registration emails are sent to the authority when a new booking is "
+"created and paid."
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-registration.php:27
+msgid "Registration for \"{product_title}\""
+msgstr "Anmeldung für \"{product_title}\""
+
+#: ../includes/emails/class-wc-email-booking-registration.php:28
+msgid "We like to inform the registration of {product_title}"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-registration.php:104
+msgid "Booking Registration has been successfully sent"
+msgstr ""
+
+#: ../includes/emails/class-wc-email-booking-registration.php:109
+msgid "Booking Registration couldn't be sent"
+msgstr ""
+
+#: ../templates/emails/authority-booking-cancellation.php:18 ..
+#: /templates/emails/authority-booking-registration.php:18
+msgid "Object"
+msgstr ""
+
+#: ../templates/emails/authority-booking-cancellation.php:26 ..
+#: /templates/emails/authority-booking-registration.php:26
+msgid "Start Date"
+msgstr "Start Datum"
+
+#: ../templates/emails/authority-booking-cancellation.php:30 ..
+#: /templates/emails/authority-booking-registration.php:30
+msgid "End Date"
+msgstr "End Datum"
+
+#: ../templates/emails/authority-booking-cancellation.php:34 ..
+#: /templates/emails/authority-booking-registration.php:34
+msgid "Location"
+msgstr "Ort"
+
+#: ../templates/emails/plain/authority-booking-cancellation.php:14 ..
+#: /templates/emails/plain/authority-booking-registration.php:14
+msgid "Details:"
+msgstr ""
+
+#: ../templates/emails/plain/authority-booking-cancellation.php:16 ..
+#: /templates/emails/plain/authority-booking-registration.php:16
+#, php-format
+msgid "Object: %s"
+msgstr ""
+
+#: ../templates/emails/plain/authority-booking-cancellation.php:17 ..
+#: /templates/emails/plain/authority-booking-registration.php:17
+#, php-format
+msgid "Decision Number: %s"
+msgstr "Bescheidnummer: %s"
+
+#: ../templates/emails/plain/authority-booking-cancellation.php:18 ..
+#: /templates/emails/plain/authority-booking-registration.php:18
+#, php-format
+msgid "Start Date: %s"
+msgstr "Start Datum"
+
+#: ../templates/emails/plain/authority-booking-cancellation.php:19 ..
+#: /templates/emails/plain/authority-booking-registration.php:19
+#, php-format
+msgid "End Date: %s"
+msgstr "End Datum"
+
+#: ../templates/single-product/authority-registration.php:22
+msgid "Private"
+msgstr "Privat"
+
+#: ../woocommerce-bookings-authority-registration.php:215 ..
+#: /templates/emails/authority-booking-cancellation.php:22 ..
+#: /templates/emails/authority-booking-registration.php:22
+msgid "Decision Number"
+msgstr "Bescheidnummer"
+
+#: ../woocommerce-bookings-authority-registration.php:296 ../includes/class-wc-
+#: booking-authority-registration-settings.php:48 ../includes/__class-wc-booking-
+#: authority-registration-integration.php:61 ../templates/single-
+#: product/authority-registration.php:24
+msgid "Public"
+msgstr "Öffentlich"
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:42 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:55
+msgid "Mode"
+msgstr "Modus"
+
+#: ../includes/class-wc-booking-authority-registration-settings.php:56 ..
+#: /includes/__class-wc-booking-authority-registration-integration.php:67
+msgid "Public: Location"
+msgstr "Öffentlich: Ort"
+
+#: ../templates/single-product/authority-registration.php:33
+msgid "Enter Location"
+msgstr "Veranstaltungsort eingeben"
